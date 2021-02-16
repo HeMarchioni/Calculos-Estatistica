@@ -365,7 +365,7 @@ function tabela(h_tentativa){      // -> recebe o h utilizado para a contrução
                     tabela(h_precisao);
                     break;
                 case 4:
-                    alert("DEU MERDA O ( h ) correto nao foi encontrado sua tabela esta errada, SE FUDEU ,faça na mao e insira a tabela no campo abaixo");
+                    alert("DEU ERRO O ( h ) correto nao foi encontrado sua tabela esta errada ,faça na mao e insira a tabela no campo abaixo");
                     break;
                 
             };
@@ -395,7 +395,7 @@ function tabela(h_tentativa){      // -> recebe o h utilizado para a contrução
                     tabela(h_precisao);
                     break;
                 case 4:
-                    alert("DEU MERDA O ( h ) correto nao foi encontrado sua tabela esta errada, SE FUDEU ,faça na mao e insira a tabela no campo abaixo");
+                    alert("DEU ERRO O ( h ) correto nao foi encontrado sua tabela esta errada, faça na mao e insira a tabela no campo abaixo");
                     break;
                 
         };
