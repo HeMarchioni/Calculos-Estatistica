@@ -6,7 +6,7 @@ Funciona em navegadores.
 
 Utilizando Linguagem: **html e javascript**
 
-Se entra com valores da amostra é preenchido a tabela de estatística e realizado os cálculos:
+Entra-se com valores da amostra é preenchido a tabela de estatística e realizado os cálculos:
 
 * at = Amplitude total dos dados da amostra
 * Nº “K” de intervalos de classes
