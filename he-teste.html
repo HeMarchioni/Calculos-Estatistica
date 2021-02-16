@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="teste.js"> </script>
+
+    <style>
+    input {
+        width: 80%;
+    }
+
+    table {
+		font-size: 20px;
+		border-collapse: collapse;
+		width: auto;
+        margin: 1em 0.5em 1em 0.5em;
+				
+	}
+	thead {
+		text-align: center;
+		
+	}
+	
+
+	th, td{
+		text-align: center;
+		border-color: black;
+		border-style: outset;
+		border-width: 3px;
+		padding: 10px;
+		color:black;
+	}
+
+    p { 
+        font-size: 1.3em;
+
+
+
+    }
+
+    p.entrada{
+        font-size: 1em;
+    }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <script>
+    </script>
+<header>
+<h1> Calculos de Estatistica </h1>
+</header>
+
+<main>
+
+    
+
+       
+          <p class="entrada"> Entre com os dados para compor uma tabela:</p> 
+            <input type="text" name="entr_dados" id="entr_dados"   ></input>
+
+     
+
+        <button onclick="recebe()">enviar</button><br>
+
+       
+            <p class="entrada"> Entre com os dados da tabela:</p> 
+            <input type="text" name="entr_tabela" id="entr_tabela"  ></input>
+
+        
+
+        <button onclick="recebe_tabela()">enviar</button>
+
+    
+    <h2>Tabela Frequencia</h2>
+
+    <table>
+        <thead> 
+
+            <tr>
+                 <th> i </th> <th> Classe de dados </th> <th> Frequência Absoluta (fi) </th> <th> xi   </th> <th> fri(%)   </th> <th>  𝐟𝐚𝐜𝐢   </th> <th> 𝐟𝐚𝐜𝐢 (%) </th> <th> 𝐟𝐚𝐝𝐢 </th> <th> 𝐟𝐚𝐝𝐢 (%) </th> 
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+        <tfoot>
+            <tr> 
+                <td> Σ </td> <td>      Total      </td> <td name="soma_fi">          soma fi        </td> <td> ----- </td> <td name="soma_fri"> soma fri% </td> <td> -----  </td> <td> -----   </td> <td> 00  </td> <td>     00    </td> 
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <h2>Tabela Calculos</h2>
+
+    <table>
+        <thead> 
+
+            <tr>
+                 <th> i </th> <th> Classe de dados </th> <th> Frequência Absoluta (fi) </th> <th> xi   </th>  <th name="media_N">  xi . fi   </th>  <th name="media_AB">  α   </th>  <th name="media_AB"> α . fi </th>    <th name="media_Har"> fi /xi </th>           <th name="media_Qua"> xi². fi </th>          <th name="desvio_Med"> | 𝒙𝒊 − 𝒙̅ | </th>    <th name="desvio_Med"> | 𝒙𝒊 − 𝒙̅ |.fi     </th>   <th name="variancia">  [ 𝒙𝒊 − 𝒙̅ ]²  </th>   <th name="variancia"> [ 𝒙𝒊 − 𝒙̅ ]².fi     </th>                                                            
+            </tr>
+       
+        </thead>
+        <tbody>
+            
+        </tbody>
+        <tfoot>
+            <tr> 
+                <td> Σ </td> <td>      Total      </td> <td name="soma_fi">          soma fi        </td> <td> ----- </td>  <td name="media_N" id="media_N"> soma xi . fi </td> <td name="media_AB"> ---  </td>  <td name="media_AB" id="media_AB"> soma α . fi   </td> <td name="media_Har" id="media_Har"> soma fi /xi </td>  <td name="media_Qua" id="media_Qua"> soma xi². fi  </td>    <td name="desvio_Med">  ----      </td>   <td name="desvio_Med" id="desvio_Med"> soma |xi –  ¯x|.fi </td>     <td name="variancia">  ---- </td>        <td name="variancia" id="variancia">  soma [ 𝒙𝒊 − 𝒙̅ ]².fi </td>                     
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+</main>
+
+
+
+
+</body>
+</html>
